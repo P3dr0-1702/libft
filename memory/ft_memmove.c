@@ -48,17 +48,3 @@ void	*ft_memmove(void *dest, const void *src, size_t i)
 	}
 	return (dest);
 }
-
-// int	main(void)
-// {
-// 	char buffer1[] = "1234567890";
-// 	char buffer2[] = "12345678901234567890";
-// 	char buffer3[] = "1234567890";
-// 	char buffer4[] = "12345678901234567890";
-
-// 	ft_memmove(buffer1, buffer2, ft_strlen(buffer1));
-// 	memmove(buffer3, buffer4, ft_strlen(buffer3));
-
-// 	printf("%s\n", buffer1);
-// 	printf("%s\n", buffer3);
-// }

@@ -34,8 +34,3 @@ char	*ft_strchr(const char *s, int b)
 	}
 	return (NULL);
 }
-// int	main(void)
-// {
-// 	char s[] = "bombardino crocodillo";
-// 	printf("%s\n", ft_strchr(s, 'b'));
-// }

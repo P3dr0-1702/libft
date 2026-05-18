@@ -21,16 +21,3 @@ void	ft_putlnbr_hex(unsigned int nb, int *n)
 		ft_putlnbr_hex(nb / 16, n);
 	ft_putlchar(hex[nb % 16], n);
 }
-
-// int main()
-// {
-// 	int i;
-
-// 	i = 0;
-// 	while (i < 100)
-// 	{
-// 		ft_putnbr_hex(i, &i);
-// 		printf("\n");
-// 		i++;
-// 	}
-// }

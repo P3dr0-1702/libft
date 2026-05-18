@@ -21,15 +21,3 @@ void	ft_dputnbr_hex(int out, unsigned int nb, int *n)
 		ft_dputnbr_hex(out, nb / 16, n);
 	ft_dputchar(out, hex[nb % 16], n);
 }
-// int main()
-// {
-// 	int i;
-
-// 	i = 0;
-// 	while (i < 100)
-// 	{
-// 		ft_putnbr_hex(i, &i);
-// 		printf("\n");
-// 		i++;
-// 	}
-// }
